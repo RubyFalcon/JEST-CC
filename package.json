@@ -1,0 +1,30 @@
+{
+  "name": "jest-cc",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Jest Crash Course",
+  "main": "index.js",
+  "scripts": {
+    "start": "node sum",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RubyFalcon/JEST-CC.git"
+  },
+  "author": "Tupay Felkin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RubyFalcon/JEST-CC/issues"
+  },
+  "homepage": "https://github.com/RubyFalcon/JEST-CC#readme",
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.2",
+    "babel-jest": "^30.3.0",
+    "jest": "^30.3.0"
+  },
+  "dependencies": {
+    "axios": "^1.13.6"
+  }
+}
