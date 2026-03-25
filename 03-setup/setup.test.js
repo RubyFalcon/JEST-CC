@@ -13,7 +13,7 @@ describe("animals array", () => {
     afterAll(() => {
         animals = ['elephant', 'zebra', 'bear', 'tigre']
     })
-    
+
     it("should add animal to end of an array", () => {
         animals.push("aligator");
         expect(animals[animals.length - 1]).toBe("aligator")
